@@ -8,8 +8,8 @@
         Title="GUID Generator" Height="450" Width="800">
 	<Grid>
 		<Button x:Name="generateButton" Content="Generate" HorizontalAlignment="Center" Margin="0,0,0,16" VerticalAlignment="Bottom" Height="32" Width="128" Click="generateButton_Click" RenderTransformOrigin="0.5,1"/>
-		<ComboBox x:Name="formatSelector" VerticalAlignment="Top" SelectionChanged="formatSelector_SelectionChanged"/>
-		<TextBox x:Name="textBox" TextWrapping="Wrap" Margin="64,152,64,239" TextChanged="textBox_TextChanged"/>
+		<ComboBox x:Name="formatSelector" VerticalAlignment="Top" />
+		<TextBox x:Name="textBox" TextWrapping="Wrap" Margin="64,152,64,239" />
 
 	</Grid>
 </Window>
